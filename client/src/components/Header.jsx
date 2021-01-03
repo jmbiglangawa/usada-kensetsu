@@ -55,6 +55,7 @@ const Header = () => {
                     <ul>
                         <li><Link to="/">{t("HOME")}</Link></li>
                         <li><Link to="/projects">{t("PROJECTS")}</Link></li>
+                        <li><Link to="/vlog">VLOG</Link></li>
                         <li><Link to="/our-team">{t("OUR TEAM")}</Link></li>
                         <li><Link to="/credits">{t("CREDITS")}</Link></li>
                         <li>

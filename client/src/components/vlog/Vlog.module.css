@@ -1,0 +1,24 @@
+.vlog-header {
+    background-image: url('../../assets/projects-header.png');
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ph-title {
+    color: #FFF;
+    font-family: 'AutoBusBold', 'Segoe UI';
+    font-size: 2.5em;
+}
+
+.vlog-grid {
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}

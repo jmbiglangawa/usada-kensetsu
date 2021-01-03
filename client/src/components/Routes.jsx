@@ -6,6 +6,7 @@ import Projects from './Projects'
 import OurTeam from './OurTeam'
 import Credits from './credits/Credits'
 import Project from './Project'
+import Vlog from './vlog/Vlog'
 import Footer from "./Footer";
 import PrivacyPolicy from './PrivacyPolicy'
 import DisplayPekoCard from './joinUs/DisplayPekoCard';
@@ -20,6 +21,9 @@ const Routes = () => {
                 </Route>
                 <Route path="/projects">
                     <Projects />
+                </Route>
+                <Route path="/vlog">
+                     <Vlog />
                 </Route>
                 <Route path="/our-team">
                     <OurTeam />
