@@ -1,6 +1,8 @@
+import Images from '../../helpers/images'
+
 export const artists = [
     {
-        avatar_url: "https://pbs.twimg.com/profile_images/1135813716862095360/3LDxJBgR_400x400.jpg",
+        avatar_url: Images.skynetrailgun,
         name: "Skynetrailgun",
         mainSocialUsername: "@skyrail_illust",
         mainSocialLink: "https://twitter.com/skyrail_illust",
@@ -17,7 +19,7 @@ export const artists = [
         }
     },
     {
-        avatar_url: "https://pbs.twimg.com/profile_images/1149600769286406145/K-q1CcGf_400x400.png",
+        avatar_url: Images.okeyneto,
         name: "Okeyneto",
         mainSocialUsername: "@okeyneto1",
         mainSocialLink: "https://twitter.com/okeyneto1",
@@ -34,7 +36,7 @@ export const artists = [
         }
     },
     {
-        avatar_url: "https://pbs.twimg.com/profile_images/1321881697701408768/jygd5nxR_400x400.jpg",
+        avatar_url: Images.faruhan,
         name: "Faruhan",
         mainSocialUsername: "@kuchikuchi99",
         mainSocialLink: "https://twitter.com/kuchikuchi99",
@@ -51,7 +53,7 @@ export const artists = [
         }
     },
     {
-        avatar_url: "https://pbs.twimg.com/profile_images/898470741129261056/x16Um-Rg_400x400.jpg",
+        avatar_url: Images.inhaze,
         name: "InHaze",
         mainSocialUsername: "@inHaze",
         mainSocialLink: "https://twitter.com/inHaze",
@@ -68,7 +70,7 @@ export const artists = [
         }
     },
     {
-        avatar_url: "https://pbs.twimg.com/profile_images/1138460375135817728/WqqaMtbk_400x400.jpg",
+        avatar_url: Images.saaya,
         name: "Saaya",
         mainSocialUsername: "@RASaaya",
         mainSocialLink: "https://twitter.com/RASaaya/status/1318946785604194304",
@@ -78,7 +80,7 @@ export const artists = [
         }
     },
     {
-        avatar_url: "https://pbs.twimg.com/profile_images/965014317224509440/XvSi608Q_400x400.jpg",
+        avatar_url: Images.kurgknyank,
         name: "Kurgknyank",
         mainSocialUsername: "@kurgknyank",
         mainSocialLink: "https://twitter.com/kurgknyank",
@@ -89,7 +91,7 @@ export const artists = [
         }
     },
     {
-        avatar_url: "https://pbs.twimg.com/profile_images/1335222656220610560/JxqjVPg8_400x400.png",
+        avatar_url: Images.drweam,
         name: "Drweam 💾 Zombie Dev",
         mainSocialUsername: "@drweamnetwork",
         mainSocialLink: "https://twitter.com/drweamnetwork",
@@ -102,7 +104,7 @@ export const artists = [
 
 export const developers = [
     {
-        avatar_url: "https://pbs.twimg.com/profile_images/1323560517739241473/h0pYXMfC_400x400.jpg",
+        avatar_url: Images.swingspringer,
         name: "SwingSpringer",
         mainSocialUsername: "@SwingSpringer",
         mainSocialLink: "https://twitter.com/SwingSpringer",
@@ -113,7 +115,7 @@ export const developers = [
         }
     },
     {
-        avatar_url: "https://pbs.twimg.com/profile_images/1334531842431705088/7o5umrWc_400x400.jpg",
+        avatar_url: Images.mael,
         name: "Mael",
         mainSocialUsername: "@_healthyburgers",
         mainSocialLink: "https://twitter.com/_healthyburgers",
@@ -124,7 +126,7 @@ export const developers = [
         }
     },
     {
-        avatar_url: "https://pbs.twimg.com/profile_images/1334426113574010880/ntp8mrnr_400x400.jpg",
+        avatar_url: Images.maruRin,
         name: "MaruRin",
         mainSocialUsername: "@_Maru_Rin_",
         mainSocialLink: "https://twitter.com/_Maru_Rin_",
@@ -135,7 +137,7 @@ export const developers = [
         }
     },
     {
-        avatar_url: "https://pbs.twimg.com/profile_images/1178850004091330560/6396Y_py_400x400.jpg",
+        avatar_url: Images.nath,
         name: "Nathanael",
         mainSocialUsername: "@L__NathanaeL",
         mainSocialLink: "https://twitter.com/l__nathanael",
@@ -150,7 +152,7 @@ export const developers = [
 
 export const translators = [
     {
-        avatar_url: "https://pbs.twimg.com/profile_images/1279983244503478273/IGJcj9a7_400x400.jpg",
+        avatar_url: Images.kanamea,
         name: "Kanamea",
         mainSocialUsername: "@kanamea_",
         mainSocialLink: "https://twitter.com/kanamea_",
@@ -160,7 +162,7 @@ export const translators = [
         }
     },
     {
-        avatar_url: "https://pbs.twimg.com/profile_images/1334266701546807296/OcHaFBy6_400x400.jpg",
+        avatar_url: Images.momijiloop,
         name: "MomijiLoop",
         mainSocialUsername: "@MomijiLoop",
         mainSocialLink: "https://twitter.com/MomijiLoop",
@@ -170,7 +172,7 @@ export const translators = [
         }
     },
     {
-        avatar_url: "https://pbs.twimg.com/profile_images/1334531842431705088/7o5umrWc_400x400.jpg",
+        avatar_url: Images.mael,
         name: "Mael",
         mainSocialUsername: "@_healthyburgers",
         mainSocialLink: "https://twitter.com/_healthyburgers",
@@ -181,7 +183,7 @@ export const translators = [
         }
     },
     {
-        avatar_url: "https://pbs.twimg.com/profile_images/1178850004091330560/6396Y_py_400x400.jpg",
+        avatar_url: Images.nath,
         name: "Nathanael",
         mainSocialUsername: "@L__NathanaeL",
         mainSocialLink: "https://twitter.com/l__nathanael",
