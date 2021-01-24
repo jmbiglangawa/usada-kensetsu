@@ -1,10 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { getSubscribersCount } from '../services/youtube.service';
 import '../css/LiveSubscribersCount.scss';
-import BunnyIcon from '../assets/svg/bunny-icon.svg'
-import Small from '../assets/svg/small.svg';
-import Large from '../assets/svg/large.svg';
-import Carrot from '../assets/svg/carrot.svg';
+import { bunnyIcon, small, large, carrot, rabbitShape, getBackground } from '../helpers/images'
 import { useSpring, animated } from 'react-spring'
 import useScrollPosition from '@react-hook/window-scroll'
 import { Trans, useTranslation } from 'react-i18next'
@@ -70,51 +67,51 @@ const LiveSubscribersCount = ({socket}) => {
                 </animated.div>
 
                 <animated.div style={useSlideAnimationOnScroll(0)} className="carrot">
-                    <img src={Carrot} className="carrot-opaque carrot-small" alt="" />
+                    <img src={carrot} className="carrot-opaque carrot-small" alt="" />
                 </animated.div>
             </div>
 
             <animated.div style={useSlideAnimationOnScroll(0)} className="row-2">
                 <div className="carrot-2">
-                    <img src={Carrot} className="carrot carrot-opaque carrot-small carrot-2" alt="" />
+                    <img src={carrot} className="carrot carrot-opaque carrot-small carrot-2" alt="" />
                 </div>
 
                 <div className="carrot-3">
-                    <img src={Carrot}  className="carrot carrot-opaque carrot-small carrot-3"alt="" />
+                    <img src={carrot}  className="carrot carrot-opaque carrot-small carrot-3"alt="" />
                 </div>
 
                 <div className="rabbit-shape-small">
-                    <img  src={Small} alt="" />
+                    <img  src={small} alt="" />
                 </div>
 
             </animated.div>
             
             <animated.div  style={useSlideAnimationOnScroll(200)} className="row-3">
-                <div className="count-container">
+                <div className="count-container" style={getBackground(rabbitShape)}>
                     <animated.span style={counterAnimator} className="count">{counterAnimator.number.interpolate(count => Math.round(count).toLocaleString())}</animated.span>
-                    <img className="bunny-icon" src={BunnyIcon} alt="" />
+                    <img className="bunny-icon" src={bunnyIcon} alt="" />
                 </div>
                 
             </animated.div>
 
             <animated.div style={useSlideAnimationOnScroll(0)} className="row-4">
-                <div className="subscribe-button">
+                <div className="subscribe-button" style={getBackground(carrot)}>
                     <ExternalLink excludeIcon href="https://www.youtube.com/channel/UC1DCedRgGHBdm81E1llLhOQ" className="subscribe-text">{t("Subscribe")}</ExternalLink>
                 </div>
 
                 <div className="rabbit-shape">
-                    <img src={Large} alt="" />
+                    <img src={large} alt="" />
                 </div>
 
             </animated.div>
 
             <animated.div  style={useSlideAnimationOnScroll(0)} className="row-5">
                 <div className="carrot-1">
-                    <img src={Carrot} className="carrot carrot-opaque" alt="" />
+                    <img src={carrot} className="carrot carrot-opaque" alt="" />
                 </div>
 
                 <div className="carrot-2">
-                    <img src={Carrot} className="carrot carrot-opaque" alt="" />
+                    <img src={carrot} className="carrot carrot-opaque" alt="" />
                 </div>
 
             </animated.div>
